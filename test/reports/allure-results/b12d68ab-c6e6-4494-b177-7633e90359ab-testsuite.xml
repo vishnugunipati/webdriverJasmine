@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573471308871' stop='1573471356074'>
+    <name>Handle Checkboxes</name>
+    <title>Handle Checkboxes</title>
+    <test-cases>
+        <test-case start='1573471308872' status='failed' stop='1573471329531'>
+            <name>should be checked</name>
+            <title>should be checked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call scrollIntoView on element with selector "[type="checkbox"]:nth-child(2)" because element wasn't found</message>
+                <stack-trace>Error: Can't call scrollIntoView on element with selector "[type="checkbox"]:nth-child(2)" because element wasn't found
+                    at UserContext.it (/Users/cloudfx/Documents/personalGit/webdriverJasmine/test/specs/example.js:12:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1573471329532' status='failed' stop='1573471356073'>
+            <name>dropdownhandle</name>
+            <title>dropdownhandle</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call selectByVisibleText on element with selector "#drop1" because element wasn't found</message>
+                <stack-trace>Error: Can't call selectByVisibleText on element with selector "#drop1" because element wasn't found
+                    at UserContext.it (/Users/cloudfx/Documents/personalGit/webdriverJasmine/test/specs/example.js:20:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
