@@ -19,5 +19,12 @@ describe('Handle Checkboxes', () => {
       // browser.url('http://omayo.blogspot.com');
       $('#drop1').selectByVisibleText('doc 3');
       browser.pause(3000);
-    })
+    });
+
+    it('should handle radio button on webpage', ()=> {
+      // browser.url('http://omayo.blogspot.com/');
+      const  radio_button = $('input[id="radio2"]');
+      radio_button.click();
+      browser.pause(3000);
+    });
 });

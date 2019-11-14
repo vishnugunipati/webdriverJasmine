@@ -1,13 +1,14 @@
-// import LoginPage from '../pageObjects/loginspec';
+import LoginPage from '../pageObjects/loginspec';
 const assert =require('assert');
-const LoginPage = require('../pageObjects/loginspec')
+// const LoginPage = require('../pageObjects/loginspec');
 
-describe('phptravels.net login page', function() {
-  let demouser = 'user@phptravels.com';
-  let validPass = 'demouser';
+describe('login page', function() {
+  let demouser = 'asdaad';
+  let validPass = 'asd@123$';
 
   beforeEach(function () {
-    browser.url('http://www.phptravels.net/login');
+    browser.pause(30000);
+    browser.url('http://tutorialsninja.com/demo');
     browser.pause(10000);
   });
 
